@@ -35,8 +35,14 @@ Button 'Open' for quick opening log file in the system.
 
 ## Preparing arguments
 
+Download [run-x.x.bat](https://github.com/serhiibh/log-loader/tree/master/builds) file and edit arguments for saving arguments and do not fill parameters every time.
 ```
-
+set HOST=127.0.0.1
+set USERNAME=username
+set PASSWORD=password
+set SERVER_LOG_PATH=/server/logs/jboss/application.log
+set SERVER_RESULT_LOG_PATH=/tmp/sbh/application.log
+set LOCAL_DIR_PATH=D:/logs
 ```
 
 ## Installing
